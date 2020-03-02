@@ -1,23 +1,23 @@
  <!-- Sidebar -->
-<div class="bg-green-800 text-purple-500 flex-none w-48 pb-6 hidden md:block">
+<div class="bg-green-800 text-white flex-none w-48 pb-6 hidden md:block">
   <div class="text-white mb-2 mt-3 px-4 flex justify-between">
     <div class="flex-auto">
         <h1 class="font-semibold text-xl leading-tight mb-1 truncate">24-Automotor</h1>
         <div class="flex items-center mb-6">
-          <span class="text-white opacity-50 text-sm">
+          <span class="opacity-50 text-sm">
             Escuela de Investigación Policial
           </span>
         </div>
     </div>
     <div>
-      <svg class="h-6 w-6 fill-current text-white opacity-25" viewBox="0 0 20 20">
+      <svg class="h-6 w-6 fill-current opacity-25" viewBox="0 0 20 20">
           <path d="M14 8a4 4 0 1 0-8 0v7h8V8zM8.027 2.332A6.003 6.003 0 0 0 4 8v6l-3 2v1h18v-1l-3-2V8a6.003 6.003 0 0 0-4.027-5.668 2 2 0 1 0-3.945 0zM12 18a2 2 0 1 1-4 0h4z" fill-rule="evenodd" />
       </svg>
     </div>
   </div>
   <div class="mb-8">
-    <div class="px-4 mb-2 text-white flex justify-between items-center">
-      <a href="/" class="text-white py-1">
+    <div class="px-4 mb-2 flex justify-between items-center">
+      <a href="/" class="py-1">
         Novedades
       </a>
       <div>
@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="px-4 mb-2 text-white flex justify-between items-center">
-      <a href="/" class="text-white py-1">
+      <a href="/" class="py-1">
         Revisiones
       </a>
       <div>

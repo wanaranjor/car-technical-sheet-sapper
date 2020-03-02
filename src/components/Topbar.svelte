@@ -1,8 +1,8 @@
-<div class="flex border-b px-6 py-2 items-center text-black">
-  <img src="logo1.png" class="flex-initial" alt="logo1">
-  <div class="font-extrabold flex-auto px-4 text-center">
+<div class="flex border-b px-6 py-2 items-center text-gray-700 bg-gray-100">
+  <!-- <img src="logo1.png" class="flex-initial" alt="logo1"> -->
+  <div class="font-medium flex-auto px-4 text-center leading-none">
     <h3 class="text-3xl">Policia Nacional de Colombia</h3>
     <h4 class="text-2xl">Escuela de Investigación Policial</h4>
   </div>
-  <img src="logo2.png" class="flex-initial" alt="logo2">
+  <!-- <img src="logo2.png" class="flex-initial" alt="logo2"> -->
 </div>
