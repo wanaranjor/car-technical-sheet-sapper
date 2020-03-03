@@ -1,11 +1,11 @@
  <!-- Sidebar -->
-<div class="bg-green-800 text-white flex-none w-48 pb-6 hidden md:block">
+<div class="bg-blue-500 text-white flex-none w-48 pb-6 hidden md:block">
   <div class="text-white mb-2 mt-3 px-4 flex justify-between">
     <div class="flex-auto">
         <h1 class="font-semibold text-xl leading-tight mb-1 truncate">24-Automotor</h1>
         <div class="flex items-center mb-6">
           <span class="opacity-50 text-sm">
-            Escuela de Investigación Policial
+            Nombre Funcionario
           </span>
         </div>
     </div>
@@ -15,26 +15,24 @@
       </svg>
     </div>
   </div>
-  <div class="mb-8">
-    <div class="px-4 mb-2 flex justify-between items-center">
-      <a href="/" class="py-1">
-        Novedades
-      </a>
-      <div>
-        <svg class="fill-current h-4 w-4 opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-            <path d="M11 9h4v2h-4v4H9v-4H5V9h4V5h2v4zm-1 11a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" />
-        </svg>
-      </div>
+  <div class="px-4 mb-2 flex justify-between items-center">
+    <a href="/" class="py-1 text-lg">
+      Novedades
+    </a>
+    <div>
+      <svg class="fill-current h-4 w-4 opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <path d="M11 9h4v2h-4v4H9v-4H5V9h4V5h2v4zm-1 11a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" />
+      </svg>
     </div>
-    <div class="px-4 mb-2 text-white flex justify-between items-center">
-      <a href="/" class="py-1">
-        Revisiones
-      </a>
-      <div>
-        <svg class="fill-current h-4 w-4 opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-            <path d="M11 9h4v2h-4v4H9v-4H5V9h4V5h2v4zm-1 11a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" />
-        </svg>
-      </div>
+  </div>
+  <div class="px-4 mb-2 text-white flex justify-between items-center">
+    <a href="/" class="py-1 text-lg">
+      Revisiones
+    </a>
+    <div>
+      <svg class="fill-current h-4 w-4 opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <path d="M11 9h4v2h-4v4H9v-4H5V9h4V5h2v4zm-1 11a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" />
+      </svg>
     </div>
   </div>
 </div>
