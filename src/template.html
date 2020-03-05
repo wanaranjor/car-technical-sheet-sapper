@@ -8,11 +8,11 @@
 	%sapper.base%
 
 	<link rel="stylesheet" href="index.css" />
-	<link rel='manifest' href='manifest.json' crossorigin='use-credentials'>
-	<link rel='icon' type='image/png' href='favicon.png'>
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
-    />
+	<link rel='manifest' href='manifest.json' crossorigin='use-credentials' />
+
+	<!-- TODO: <link rel='icon' type='image/png' href='favicon.png' /> -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
@@ -23,7 +23,8 @@
 	     the current page has one -->
 	%sapper.head%
 </head>
-<body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+<!-- <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;"> -->
+<body>
 	<!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
 	<div id='sapper'>%sapper.html%</div>

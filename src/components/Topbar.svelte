@@ -1,7 +1,7 @@
 <script>
   import moment from 'moment'
 </script>
-<div class="flex flex-wrap border-b px-6 py-2 items-center text-black content-center">
+<div class="flex flex-wrap border-b p-3 items-center text-black content-center">
   <div class="font-medium flex-auto text-left leading-none">
     <h3 class="text-xl font-semibold">Policía Nacional de Colombia</h3>
     <h4 class="text-lg text-gray-600">Escuela de Investigación Criminal</h4>
