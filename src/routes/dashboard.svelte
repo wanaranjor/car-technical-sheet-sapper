@@ -40,6 +40,7 @@
           const urlLinea = `http://localhost:3001/api/lineas/`+ lineaId + `/vehiculos`;
           const responseLinea = await axios.get(urlLinea);
           resultsVehiculos = responseLinea.data;
+          
           console.log(resultsVehiculos);
 
           const urlCount = `http://localhost:3001/api/lineas/`+ lineaId + `/vehiculos/count`;

@@ -3,8 +3,8 @@
   export let resultsMarcaCount;
   export let resultsMarca;
   export let resultsLinea;
-  export let resultsClase;
-  export let resultsModelo;
+  // export let resultsClase;
+  // export let resultsModelo;
   console.log(resultsVehiculos)
 </script>
 
@@ -18,34 +18,29 @@
     <!-- {/if} -->
   </p>
   <div class="flex flex-row flex-wrap">
-  {#each resultsVehiculos as vehiculo}
-  <div class="w-full sm:w-1/2 md:w-1/4 mb-3 px-2">
-    <div class="">
-      <div class="mt-3 max-w-sm overflow-hidden border">
-        <!-- <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains"> -->
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">{vehiculo.vehiculo}</div>
-          <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-          </p>
-        </div>
-        <div class="px-6 py-4">
-          <span class="inline-block bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-            #{resultsMarca}
-          </span>
-          <span class="inline-block bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-            #{resultsLinea}
-          </span>
-          <span class="inline-block bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
-            #{resultsClase}
-          </span>
-          <span class="inline-block bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
-            #{resultsModelo}
-          </span>
+    {#each resultsVehiculos as vehiculo}
+    
+      <div class="w-full md:w-1/5 p-3">
+        <div class="hover:bg-gray-200 border rounded p-2">
+          <div class="flex flex-row items-center">
+            <div class="flex-shrink pr-4">
+              <div class="p-3 text-gray-700 hover:text-blue-700">
+                <a href="vehiculos/{vehiculo.id}">
+                  <i class="fas fa-car fa-3x fa-fw"></i>
+                </a>
+              </div>
+            </div>
+            <div class="flex-1 text-right md:text-center">
+              {resultsMarca}
+              {resultsLinea}
+              <h3 class="font-bold uppercase text-orange-600">{vehiculo.vehiculo}</h3>
+              <h5 class="font-bold">NIT</h5>
+              <h6 class="uppercase text-gray-500">ADDRES</h6>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
-  {/each}
+
+    {/each}
   </div>
 </div>
