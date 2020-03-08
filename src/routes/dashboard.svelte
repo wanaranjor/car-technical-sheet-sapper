@@ -54,6 +54,10 @@
   }
 </script>
 
+<svelte:head>
+	<title>Tablero</title>
+</svelte:head>
+
 <Sidebar />
 <div class="flex-1 flex flex-col bg-white overflow-hidden">
   <Topbar />

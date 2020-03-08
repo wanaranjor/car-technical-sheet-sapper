@@ -5,6 +5,6 @@
 
 <!-- <Nav/> -->
 
-<main class="h-screen flex">
+<main class="h-screen overflow-hidden flex">
 	<slot></slot>
 </main>
