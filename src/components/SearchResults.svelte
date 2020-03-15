@@ -14,16 +14,16 @@
   </p>
   <div class="flex flex-row flex-wrap">
     {#each searchResultsMarcas as marca, i (marca.id)}
-      <div class="w-full sm:w-1/2 md:w-1/4 mb-3 px-2">      
-        <div class="mt-3 overflow-hidden border">          
+      <div class="w-full sm:w-1/2 md:w-1/4 mb-3 px-2">
+        <div class="mt-3 overflow-hidden border">
           <div class="pr-4 p-3 text-gray-700 hover:bg-gray-200 hover:text-blue-700">
             <a href="marcas/{marca.id}" class="flex items-center">
-              <ChevronRightIcon size="1x"/>        
-              <h3 class="px-3 font-bold text-lg">{marca.marca}</h3>
-            </a>             
-          </div>          
+              <ChevronRightIcon size="1x"/>
+              <h3 class="px-3 font-bold text-base">{marca.marca}</h3>
+            </a>
+          </div>
         </div>
-      </div>      
-    {/each}    
+      </div>
+    {/each}
   </div>
 </div>

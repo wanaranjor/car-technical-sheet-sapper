@@ -27,7 +27,7 @@
 
 <div class="p-3">
   <div class="flex flex-wrap items-center text-white  rounded-t border-l border-t border-r  bg-blue-500 px-4 py-1 font-bold">
-    <span class="flex-auto">Consultar Vehículo</span>
+    <span class="flex-auto">Consultar Marca</span>
   </div>
   <div class="text-black rounded-b px-4 py-2 flex flex-col border">
     <div class="-mx-3 md:flex mb-2">

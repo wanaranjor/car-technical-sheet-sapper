@@ -1,25 +1,33 @@
 <script>
   import Carousel from '@beyonk/svelte-carousel';
-	import { ChevronLeftIcon, ChevronRightIcon } from 'svelte-feather-icons';
+	import { ImageIcon, ChevronLeftIcon, ChevronRightIcon } from 'svelte-feather-icons';
 </script>
 
-<div class="demo">
-	<Carousel perPage={1}>
-		<span class="control" slot="left-control">
-			<ChevronLeftIcon />
-		</span>
-		<div class="flex flex-col">  
-      <img src="https://lh3.googleusercontent.com/proxy/hw5sieXLNQBb6xK-I3kaV53pIEXdVLc3_TaGTD2eFnMHgrnXa3oW4NFnaM4Amhwt2d2Y_T-c3EwSfsjyBr5W_Gc-RaBJXwHiRrs7BwZTbK3d6kcmAef-4yI" alt="img">
-      <span>Imagen 1</span>
+<div class="border rounded shadow">
+  <div class="flex items-center border-b px-6 py-2 -mb-px bg-gray-100">
+    <ImageIcon size="1x" />
+    <h3 class="font-semibold text-base px-2">Imágenes Improtas</h3>
+  </div>
+  <div class="text-center px-6 py-4">
+    <div class="demo">
+      <Carousel perPage={1}>
+        <span class="control" slot="left-control">
+          <ChevronLeftIcon />
+        </span>
+        <div class="flex flex-col">  
+          <img src="https://todotransitobogota.files.wordpress.com/2014/06/impronta.jpg" alt="img">
+          <span>Imagen 1</span>
+        </div>
+        <div class="flex flex-col">  
+          <img src="https://www.pruebaderuta.com/wp-content/uploads/2015/12/numero-identificacion-vehicular-1-620x264.jpg" alt="img">
+          <span>Imagen 2</span>
+        </div>
+        <span class="control" slot="right-control">
+          <ChevronRightIcon />
+        </span>
+      </Carousel>
     </div>
-    <div class="flex flex-col">  
-      <img src="https://www.pruebaderuta.com/wp-content/uploads/2015/12/numero-identificacion-vehicular-1-620x264.jpg" alt="img">
-      <span>Imagen 2</span>
-		</div>
-		<span class="control" slot="right-control">
-			<ChevronRightIcon />
-		</span>
-	</Carousel>
+  </div>
 </div>
 
 

@@ -20,10 +20,9 @@
   import Sidebar from '../../components/Sidebar.svelte';
   import Topbar  from '../../components/Topbar.svelte';
   import SearchLineas from '../../components/SearchLineas.svelte';
-  import MarcaLineas from '../../components/MarcaLineas.svelte'; 
 
   export let nameMarca;
-  export let marcaLineas;  
+  export let marcaLineas;
 </script>
 
 <svelte:head>
@@ -34,5 +33,4 @@
 <div class="flex-1 flex flex-col bg-white overflow-hidden">
   <Topbar />
   <SearchLineas {nameMarca} {marcaLineas} />
-  <MarcaLineas  {marcaLineas}/>
 </div>
